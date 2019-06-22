@@ -1,0 +1,19 @@
+site_name: Deep Learning Course
+nav:
+    - Home: index.md
+
+theme:
+  name: material
+        # ivory
+
+markdown_extensions:
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.magiclink
+  - pymdownx.tilde
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
